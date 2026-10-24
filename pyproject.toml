@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tess-uav"
+version = "0.1.0"
+description = "Reproducible temporal semantic stability analysis for UAV scenes"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23,<3", "opencv-python-headless>=4.7", "tqdm>=4.60"]
+[project.optional-dependencies]
+test = ["pytest>=7"]
+[tool.setuptools.packages.find]
+include = ["tess_uav*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

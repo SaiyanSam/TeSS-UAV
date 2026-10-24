@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python packaging
+*.egg-info/
+build/
+dist/
+*.egg
+.venv/
+venv/
+env/
+
+# Datasets and model checkpoints
+/datasets/
+/data/
+/checkpoints/
+/weights/
+/models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Generated predictions and experiment outputs
+/predictions/
+/outputs/
+/results/
+/logs/
+/runs/
+/experiments/
+/artifacts/
+
+# Historical experimental archives
+/result/
+/result(ICVGIP Rebuttal)/
+results*.zip
+result*.zip
+*ICVGIP*.zip
+*.tar.gz
+*.tar.xz
+*.7z
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints and IDE files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example

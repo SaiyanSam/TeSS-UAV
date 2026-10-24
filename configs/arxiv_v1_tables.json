@@ -1,0 +1,25 @@
+{
+  "reference_id": "arXiv:2608.28665v1 (2026-08-23)",
+  "warning": "Public preprint, NOT independently confirmed as final ICVGIP 2026 camera-ready. Replace reference after inspecting accepted PDF.",
+  "table1": {"SAM + heuristic": 29.47, "Raw SAM proposals": 21.64, "SegFormer": 25.39, "SegEarth-OV": 15.73},
+  "table2": {
+    "scene0": {"voxels": 306957, "sampled_points": 637068, "op": 2.08, "vss": 0.951, "sbd": 0.0466, "entropy": 0.0395},
+    "scene1": {"voxels": 320725, "sampled_points": 624234, "op": 1.95, "vss": 0.908, "sbd": 0.0949, "entropy": 0.0758},
+    "scene3": {"voxels": 27904, "sampled_points": 32999, "op": 1.18, "vss": 0.981, "sbd": 0.0714, "entropy": 0.0133},
+    "scene5": {"voxels": 23862, "sampled_points": 27433, "op": 1.15, "vss": 0.978, "sbd": 0.1007, "entropy": 0.0155},
+    "scene8": {"voxels": 26454, "sampled_points": 32169, "op": 1.22, "vss": 0.966, "sbd": 0.1091, "entropy": 0.0239}
+  },
+  "table3": {
+    "OP=1": {"fraction_percent": 57.89, "vss": 1.000, "entropy": 0.0000},
+    "OP=2": {"fraction_percent": 20.32, "vss": 0.873, "sbd": 0.0790, "entropy": 0.1602},
+    "3<=OP<=5": {"fraction_percent": 18.02, "vss": 0.869, "sbd": 0.0454, "entropy": 0.2285},
+    "OP>5": {"fraction_percent": 3.77, "vss": 0.870, "sbd": 0.0216, "entropy": 0.2530}
+  },
+  "table4": {
+    "building": {"voxels": 286565, "vss": 0.939, "sbd": 0.0626, "entropy": 0.0464},
+    "road": {"voxels": 207895, "vss": 0.915, "sbd": 0.0913, "entropy": 0.0685},
+    "tree": {"voxels": 97988, "vss": 0.929, "sbd": 0.0851, "entropy": 0.0612},
+    "low_vegetation": {"voxels": 102703, "vss": 0.961, "sbd": 0.0393, "entropy": 0.0375},
+    "moving_car": {"voxels": 10564, "vss": 0.960, "sbd": 0.0498, "entropy": 0.0403}
+  }
+}

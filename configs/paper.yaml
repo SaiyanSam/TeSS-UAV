@@ -1,0 +1,10 @@
+# Documented accepted protocol; the CLI currently accepts equivalent arguments.
+scenes: [scene0, scene1, scene3, scene5, scene8]
+num_frames: 20
+sample_stride: 4 # spatial stride
+voxel_size: 0.2
+num_classes: 8
+ignore_label: 0
+depth_scale: 1.0
+max_depth: 120.0
+mask_name: segearth_mask.png
